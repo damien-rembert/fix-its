@@ -11,7 +11,7 @@ const FixIt1 = () => {
           mollit anim id est laborum.
         </p>
       </div>
-    );
+    
   };
   
   export default FixIt1;

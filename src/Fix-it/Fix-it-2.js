@@ -1,12 +1,14 @@
 const FixIt2 = () => {
-    return 
+    return (
         <div>
             <h1>FIX IT 2</h1>
             <ul>
                 <li>blue</li>
                 <li>green</li>
                 <li>red</li>
-            <ul>
+            </ul>
         </div>
+        )
+};
 
-}
+export default FixIt2;
