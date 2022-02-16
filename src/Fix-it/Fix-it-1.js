@@ -5,13 +5,13 @@ const FixIt1 = () => {
     return (
         <div>
             <User name="benjamin" />
-            <User name="cristiano" >
+            <User name="cristiano" />
         </div>
     )
 }
 
-const User = () => {
+const User = (props) => {
     return <h2>hello {props.name}</h2>
 }
 
-export default FixIt1
+export default FixIt1;
