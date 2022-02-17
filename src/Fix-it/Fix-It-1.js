@@ -10,23 +10,16 @@ const gif3 =
 const FixIt1 = () => {
   return (
     <div>
-      <Giffer1 gif={gif1} />
-      <Giffer2 gif={gif2} />
-      <Giffer3 gif={gif3} />
+      <Giffer gif={gif1} />
+      <Giffer gif={gif2} />
+      <Giffer gif={gif3} />
     </div>
   );
 };
 
-const Giffer1 = ({ gif }) => {
+const Giffer = ({ gif }) => {
   return <img src={gif} />;
 };
 
-const Giffer2 = ({ gif }) => {
-  return <img src={gif} />;
-};
-
-const Giffer3 = ({ gif }) => {
-  return <img src={gif} />;
-};
 
 export default FixIt1;

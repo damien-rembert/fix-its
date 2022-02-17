@@ -15,7 +15,7 @@ const FixIt3 = () => {
   );
 };
 
-const UserCards = ({ user }) => {
+const UserCards = ({ user }, {age}) => {
   
     <div style={{ border: "dotted red 2px" }}>
       <p>name: {user}</p>
